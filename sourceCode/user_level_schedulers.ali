@@ -1,0 +1,260 @@
+V "GNAT Lib v2019"
+P ZX
+
+RN
+RV NO_ABORT_STATEMENTS
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_PROTECTED_TYPES
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_ALLOCATORS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U user_level_schedulers%b  user_level_schedulers.adb  330c90d3 NE OO PK IL
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U user_level_schedulers%s  user_level_schedulers.ads  2ef5134e EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+W user_level_tasks%s	user_level_tasks.adb	user_level_tasks.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-charac.ads		20190518041256 2d3ec45b ada.characters%s
+D a-chlat1.ads		20190518041256 66457d31 ada.characters.latin_1%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-finali.ads		20190518041256 bf4f806b ada.finalization%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20190518041258 0240fc73 ada.real_time%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-string.ads		20190518041256 90ac6797 ada.strings%s
+D a-strmap.ads		20190518041256 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20190518041256 1656705b ada.strings.unbounded%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-c.ads		20190518041256 5421119b interfaces.c%s
+D i-cstrin.ads		20190518041256 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-atacco.ads		20190518041258 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20190518041258 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-conca4.ads		20190518041258 7e642b20 system.concat_4%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-finmas.ads		20190518041256 7811a767 system.finalization_masters%s
+D s-finroo.ads		20190518041258 4ff27390 system.finalization_root%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-multip.ads		20190518041256 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20190518041258 97504df8 system.os_interface%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stausa.ads		20190518041256 017a0a05 system.stack_usage%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20190518041256 b16154c2 system.storage_pools%s
+D s-stposu.ads		20190518041256 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20190518041256 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20190518041258 601f6b72 system.task_info%s
+D s-taspri.ads		20190518041258 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20190518041258 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20190518041258 b9d612e2 system.tasking%s
+D s-taprob.ads		20190518041258 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20190518041258 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20190518041258 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20190518041258 cca55c94 system.tasking.stages%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D s-win32.ads		20190518041256 90ecf4e6 system.win32%s
+D text_io.ads		20190518041256 21b2c898 text_io%s
+D user_level_schedulers.ads  20200501151928 f81e1f5e user_level_schedulers%s
+D user_level_schedulers.adb  20200503192328 eaa04715 user_level_schedulers%b
+D user_level_tasks.ads	20200330135854 c0bd7c4b user_level_tasks%s
+G a e
+G c Z s b [set_task_status user_level_schedulers__user_level_scheduler 24 17 none]
+G c Z s b [set_task_criticality user_level_schedulers__user_level_scheduler 25 17 none]
+G c Z s b [set_task_user_priority user_level_schedulers__user_level_scheduler 26 17 none]
+G c Z s b [decrease_remaining_capacity user_level_schedulers__user_level_scheduler 27 17 none]
+G c Z s b [reset_remaining_capacity user_level_schedulers__user_level_scheduler 28 17 none]
+G c Z s b [get_tcb user_level_schedulers__user_level_scheduler 29 16 none]
+G c Z s b [new_user_level_task user_level_schedulers__user_level_scheduler 30 17 none]
+G c Z s b [get_number_of_task user_level_schedulers__user_level_scheduler 35 16 none]
+G c Z s b [get_current_time user_level_schedulers__user_level_scheduler 36 16 none]
+G c Z s b [next_time user_level_schedulers__user_level_scheduler 37 17 none]
+G c Z s b [user_level_scheduler__set_task_statusN user_level_schedulers 24 7 none]
+G c Z s b [user_level_scheduler__set_task_statusP user_level_schedulers 24 7 none]
+G c Z s b [user_level_scheduler__set_task_criticalityN user_level_schedulers 25 7 none]
+G c Z s b [user_level_scheduler__set_task_criticalityP user_level_schedulers 25 7 none]
+G c Z s b [user_level_scheduler__set_task_user_priorityN user_level_schedulers 26 7 none]
+G c Z s b [user_level_scheduler__set_task_user_priorityP user_level_schedulers 26 7 none]
+G c Z s b [user_level_scheduler__decrease_remaining_capacityN user_level_schedulers 27 7 none]
+G c Z s b [user_level_scheduler__decrease_remaining_capacityP user_level_schedulers 27 7 none]
+G c Z s b [user_level_scheduler__reset_remaining_capacityN user_level_schedulers 28 7 none]
+G c Z s b [user_level_scheduler__reset_remaining_capacityP user_level_schedulers 28 7 none]
+G c Z s b [user_level_scheduler__get_tcbN user_level_schedulers 29 7 none]
+G c Z s b [user_level_scheduler__get_tcbP user_level_schedulers 29 7 none]
+G c Z s b [user_level_scheduler__new_user_level_taskN user_level_schedulers 30 7 none]
+G c Z s b [user_level_scheduler__new_user_level_taskP user_level_schedulers 30 7 none]
+G c Z s b [user_level_scheduler__get_number_of_taskN user_level_schedulers 35 7 none]
+G c Z s b [user_level_scheduler__get_number_of_taskP user_level_schedulers 35 7 none]
+G c Z s b [user_level_scheduler__get_current_timeN user_level_schedulers 36 7 none]
+G c Z s b [user_level_scheduler__get_current_timeP user_level_schedulers 36 7 none]
+G c Z s b [user_level_scheduler__next_timeN user_level_schedulers 37 7 none]
+G c Z s b [user_level_scheduler__next_timeP user_level_schedulers 37 7 none]
+G c Z s s [tcbIP user_level_schedulers 10 9 none]
+G c Z s s [Ttcb_typeBIP user_level_schedulers 21 4 none]
+G c Z s s [user_level_schedulerTVIP user_level_schedulers 23 4 none]
+G c Z s b [rate_monotonic_schedule user_level_schedulers 46 14 none]
+G c Z s b [edf_schedule user_level_schedulers 47 14 none]
+G c Z s b [muf_schedule user_level_schedulers 48 14 none]
+G c Z s b [abort_tasks user_level_schedulers 49 14 none]
+G r s user_level_task [new_user_level_task user_level_schedulers__user_level_scheduler 30 17 none] [user_level_taskVIP user_level_tasks 12 4 none]
+G r r none [rate_monotonic_schedule user_level_schedulers 46 14 none] [wait_for_processor user_level_tasks__user_level_task 16 13 none]
+G r r none [rate_monotonic_schedule user_level_schedulers 46 14 none] [release_processor user_level_tasks__user_level_task 17 13 none]
+G r r none [edf_schedule user_level_schedulers 47 14 none] [wait_for_processor user_level_tasks__user_level_task 16 13 none]
+G r r none [edf_schedule user_level_schedulers 47 14 none] [release_processor user_level_tasks__user_level_task 17 13 none]
+G r r none [muf_schedule user_level_schedulers 48 14 none] [wait_for_processor user_level_tasks__user_level_task 16 13 none]
+G r r none [muf_schedule user_level_schedulers 48 14 none] [release_processor user_level_tasks__user_level_task 17 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 55|1r6 1r33
+X 9 a-string.ads
+16K13*Strings 35e16 55|1r10 1r37
+X 11 a-strunb.ads
+82K21*Unbounded 756e26 55|1w18 1r45
+X 13 a-textio.ads
+508U14*Put_Line 56|40s13 59s19 109s13 128s19 243s13 262s19
+X 36 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 54 text_io.ads
+24K9*Text_IO=24:29 56|1w6 1r19
+X 55 user_level_schedulers.ads
+4K9*user_level_schedulers 51l5 51e26 56|3b14 371l5 371t26
+6i4*max_user_level_task{integer} 21r33 56|336r35
+8E9*task_status 8e49 18r18 24r52 56|297r52
+8n25*task_ready{8E9} 56|25r32 64r60 93r32 133r60 191r32 273r60 347r35
+8n37*task_pended{8E9} 56|55r32 124r32 258r32
+10R9*tcb 19e14 21r57 29r46 56|8r25 10r25 76r25 78r25 146r25 148r25 283r15
+. 323r46 334r18
+11p7*the_task{57|19P9} 56|37r26 38r26 106r26 107r26 239r26 240r26 291r22
+. 348m16
+12i7*period{integer} 56|27r25 28r44 56r67 96r26 96r84 97r46 125r67 180r84
+. 180r142 259r67 341m16
+13i7*capacity{integer} 56|320r47 342m16
+14i7*capacity_left{integer} 56|174r22 181r86 269r34 315m20 315r47 320m20
+. 343m16
+15i7*criticality{integer} 56|194r25 198r48 206r25 305m20 345m16
+16i7*user_priority{integer} 56|200r50 212r53 219r32 223r56 310m20 346m16
+17i7*laxity{integer} 56|175m23 180m27 199r44 207r29 211r47 218r28
+18e7*status{8E9} 56|25r23 55r23 93r23 124r23 191r23 258r23 299m20 347m16
+21A9*tcb_type(10R9)<integer> 39r24
+23w14*user_level_scheduler 56|23r24 24r22 42r31 47r10 48r20 53r24 54r22 56r19
+. 63r37 64r19 91r24 92r22 96r36 111r31 116r10 117r20 122r24 123r22 125r19
+. 132r37 133r19 168r24 169r22 180r38 180r94 181r40 241r13 245r31 250r10 251r20
+. 256r24 257r22 259r19 266r37 270r33 273r19 285r11 289r21 290r19 295b19 369l8
+. 369t28
+24U17 set_task_status 24>34 24>48 56|64s40 133s40 273s40 297b17 300l11 300t26
+24i34 id{integer} 56|297b34 299r16
+24e48 s{8E9} 56|297b48 299r30
+25U17 set_task_criticality 25>39 25>53 56|303b17 306l11 306t31
+25i39 id{integer} 56|303b39 305r16
+25i53 s{integer} 56|303b53 305r35
+26U17 set_task_user_priority 26>41 26>55 56|308b17 311l11 311t33
+26i41 id{integer} 56|308b41 310r16
+26i55 s{integer} 56|308b55 310r37
+27U17 decrease_remaining_capacity 27>46 56|241s34 313b17 316l11 316t38
+27i46 id{integer} 56|313b46 315r16 315r43
+28U17 reset_remaining_capacity 28>43 56|270s54 318b17 321l11 321t35
+28i43 id{integer} 56|318b43 320r16 320r43
+29V16 get_tcb{10R9} 29>25 56|24s43 54s43 92s43 123s43 169s43 257s43 290s40
+. 323b16 326l11 326t18
+29i25 id{integer} 56|323b25 325r23
+30U17 new_user_level_task 31=10 32>10 33>10 34>10 56|328b17 352l11 352t30
+31i10 id{integer} 56|329b10 351m10
+32i10 period{integer} 56|330b10 341r35
+33i10 capacity{integer} 56|331b10 342r35 343r35
+34p10 subprogram{57|8P9} 56|332b10 349r49
+35V16 get_number_of_task{integer} 56|23s45 53s45 91s45 122s45 168s45 256s45
+. 285s32 289s42 354b16 357l11 357t29
+36V16 get_current_time{integer} 56|42s52 48s41 56s40 63s58 96s57 111s52 117s41
+. 125s40 132s58 180s59 180s115 181s61 245s52 251s41 259s40 266s58 359b16
+. 362l11 362t27
+37U17 next_time 56|47s31 116s31 250s31 364b17 367l11 367t20
+39a7 tcbs{21A9} 56|299r10 305r10 310r10 315r10 315r37 320r10 320r37 325r17
+. 350r10
+40i7 number_of_task{integer} 56|336r14 340r10 340r35 349r33 350r16 351r35
+. 356r17
+41i7 current_time{integer} 56|361r17 366r10 366r26
+46U14*rate_monotonic_schedule 46>39 56|7b14 71l8 71t31
+46i39 duration_in_time_unit{integer} 56|7b39 49r20
+47U14*edf_schedule 47>28 56|75b14 140l8 140t20
+47i28 duration_in_time_unit{integer} 56|75b28 118r20
+48U14*muf_schedule 48>28 56|145b14 280l8 280t20
+48i28 duration_in_time_unit{integer} 56|145b28 252r20
+49U14*abort_tasks 56|282b14 293l8 293t19
+X 56 user_level_schedulers.adb
+8r7 a_tcb{55|10R9} 24m13 25r17 27r19 28r38 29r38 54m13 55r17 56r61
+9b7 no_ready_task{boolean} 21m10 26m16 36r17
+10r7 elected_task{55|10R9} 29m19 37r13 38r13
+11i7 smallest_period{integer} 22m10 27r34 28m19
+23i14 i{integer} 24r52
+53i14 i{integer} 54r52 61r37 64r57
+76r7 a_tcb{55|10R9} 92m13 93r17 96r20 96r78 97r40 98r38 123m13 124r17 125r61
+77b7 no_ready_task{boolean} 89m10 94m16 105r17
+78r7 elected_task{55|10R9} 98m19 106r13 107r13
+79i7 smallest_deadline{integer} 90m10 96r94 97m19
+91i14 i{integer} 92r52
+122i14 i{integer} 123r52 130r37 133r57
+146r7 a_tcb{55|10R9} 169m13 174r16 175m17 180m21 180r78 180r136 181r80 191r17
+. 194r19 198r42 199r38 200r44 202r35 206r19 207r23 211r41 212r47 214r38 218r22
+. 219r26 223r50 225r41 257m13 258r17 259r61 269r28
+147b7 no_ready_task{boolean} 162m10 192m16 237r17
+148r7 elected_task{55|10R9} 202m19 214m22 225m25 239r13 240r13
+149i7 highest_criticality{integer} 164m10 194r39 198m19 206r39
+150i7 smallest_laxity{integer} 163m10 199m19 207r38 211m22 218r37
+151i7 highest_user_priority{integer} 165m10 200m19 212m22 219r48 223m25
+152i7 id_last_chef{integer} 166m10 201m19 213m22 224m25 241r62
+168i14 i{integer} 169r52 201r35 213r38 224r41
+256i14 i{integer} 257r52 264r37 270r79 273r57
+283r7 a_tcb{55|10R9} 290m10 291r16
+289i11 i{integer} 290r49
+334r10 a_tcb{55|10R9} 341m10 342m10 343m10 345m10 346m10 347m10 348m10 350r35
+X 57 user_level_tasks.ads
+3K9*user_level_tasks 55|2w6 2r33 57|21e21
+8P9*run_subprogram 55|34r26 56|332r26
+12T14*user_level_task 56|349r16 57|18e23
+16Y13 wait_for_processor 56|37s35 106s35 239s35
+17Y13 release_processor 56|38s35 107s35 240s35
+19P9*user_level_task_ptr(12T14) 55|11r18
+
